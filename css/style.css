@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    font-family:'Titillium Web', sans-serif;;
+}
+/* header part  */
+.header-part{
+    background-color: #87509c;
+}
+.manu-part {
+text-align: end;
+
+}
+.manu-part ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 7px;
+
+}
+.manu-part ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+
+  
+}
+.manu-part ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 5px;
+}
+.hero_part{
+  padding: 100px;
+  margin: 0px auto; 
+  text-align-last: center;
+  color: #fff;
+}
+.hero_part h1{
+  width: 50%;
+  padding: 20px;
+  margin:0px auto;
+  text-align: center;
+
+}
+button{
+  padding: 10px;
+  margin: auto;
+  width: 150px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.514);
+}
+button:hover{
+  background-color: #fff;
+  
+}
+#service-part{
+  background-color:#17c2a4;
+}
+
+#service-part h1{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+#service-part p{
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+#service-part h2{
+  color: #fff;
+}
+.line-dro{
+  border-top-style: solid ;
+  width: 60px;
+  margin: auto;
+  box-shadow: inset;
+}
+.img{
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* team part  */
+#team-part{
+background-color: #e7f1f8;
+text-align: center;
+color: #3c4761;
+}
+#team-part p{
+  padding: 7px;
+  color: #5d677b;
+}
+.rank{
+  color: #30bae7;
+}
+i{
+  padding: 10px;
+  margin: auto;
+  color: #bdd1df;
+}
+h1{
+  text-align: center;
+  padding: 30px;
+}
+/* skills part  */
+#SKILLS-part{
+  background-color: #ffffff;
+  text-align: center;
+  color: #3c4761;
+}
+#SKILLS-part p{
+  color: #3c4761;
+  padding: 5px;
+}
+/* #PORTFOLIO-part */
+#PORTFOLIO-part{
+  background-color: #ffdd99;
+  text-align: center;
+}
+#PORTFOLIO-part p{
+  color: #60584a;
+  padding: 5px;
+}
+#PORTFOLIO-part h1{
+  color: #393939;
+}
+#PORTFOLIO-part img{
+padding: 20px;
+}
+#PORTFOLIO-part button{
+  padding: 5px;
+  width: 90px;
+  margin:30px 5px;
+}
+.more input{
+  background-color: #17c2a4;
+  padding: 20px;
+  width: 250px;
+  border-bottom: #17c2a4;
+  
+}
+/* about part  */
+#about-part{
+  background-color: #d74680;
+  text-align: center;
+  color: #fff;
+}
+#about-part p{
+  padding: 5px;
+}
+.text{
+  text-align: justify;
+  padding: 20px;
+  margin: auto;
+}
+
+
+/* TOUCH-part */
+#TOUCH-part{
+  background-color: #3c5499;
+  text-align: center;
+  color: #fff;
+}
+#TOUCH-part p{
+  padding: 5px;
+}
+input{
+  width: 30%;
+  padding: 10px;
+  margin: 30px 20px;
+  background-color: #273a71;
+  border-radius: 7px;
+  border-style: none;
+}
+textarea{
+  background-color: #273a71;
+  border-radius: 7px;
+}
+#TOUCH-part button{
+  background-color: #30bae7;
+  color: #fff;
+}
+#TOUCH-part button:hover{
+  background-color:#273a71 ;
+}
+::placeholder{
+  color: #fff;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer part  */
+.footer-part{
+  background-color: #344b8e;
+  padding: 40px;
+}
+.footer-part ul{
+  text-align: center;
+}
+.footer-part ul li{
+  text-decoration: none;
+  display: inline-block;
+ padding: 25px;
+}
+.footer-part ul li a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer-part ul li a:hover{
+  color: #30bae7;
+}
+
+
+/* leyout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+[class*="col-"] 
+{float: left; }
+  
+.row{width: 100%;float: left;}
+.col-1 {width: 8.33%;float: left;}
+  .col-2 {width: 16.66%;float: left;}
+  .col-3 {width: 25%; float: left;}
+  .col-4 {width: 33.33%;float: left;}
+  .col-5 {width: 41.66%;float: left;}
+  .col-6 {width: 50%; float: left;}
+  .col-7 {width: 58.33%;float: left;}
+  .col-8 {width: 66.66%;float: left;}
+  .col-9 {width: 75%;float: left;}
+  .col-10 {width: 83.33%;float: left;}
+  .col-11 {width: 91.66%;float: left;}
+  .col-12 {width: 100%;float: left;}
